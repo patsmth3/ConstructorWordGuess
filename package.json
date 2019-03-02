@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "constructorwordguess",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
@@ -11,5 +11,14 @@
     "inquirer": "^6.2.2",
     "word": "^0.2.4"
   },
-  "description": ""
+  "description": "",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patsmth3/ConstructorWordGuess.git"
+  },
+  "bugs": {
+    "url": "https://github.com/patsmth3/ConstructorWordGuess/issues"
+  },
+  "homepage": "https://github.com/patsmth3/ConstructorWordGuess#readme"
 }

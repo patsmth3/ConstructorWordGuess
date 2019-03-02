@@ -19,7 +19,7 @@ const again = (fun, val) => {
 };
 
 //array of words to guess
-let initialWords = ['motocycle', 'music', 'book', 'code']; 
+let initialWords = ['fullstack', 'coding', 'developer', 'javascript']; 
 
 //recursion function 
 const guess = (arr) => {
