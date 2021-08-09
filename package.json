@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.2.2",
-    "word": "^0.2.4"
+    "word": "^0.3.0",
+    "@snyk/protect": "latest"
   },
   "description": "",
   "devDependencies": {},
@@ -20,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/patsmth3/ConstructorWordGuess/issues"
   },
-  "homepage": "https://github.com/patsmth3/ConstructorWordGuess#readme"
+  "homepage": "https://github.com/patsmth3/ConstructorWordGuess#readme",
+  "snyk": true
 }
